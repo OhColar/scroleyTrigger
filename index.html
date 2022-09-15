@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>scroleyTrigger</title>
+    <link rel="stylesheet" type="text/css" href="src/css/app.css" />
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>ScroleyTrigger</h1>
+        <p>Scroll triggered animation for HTML elements</p>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="sr fade-down">
+        <h2>Fade Down Example</h2>
+        <p>By adding the trigger class "sr" followed by the animation type "fade-down" you can trigger a nice fade down animation on a containing div element.</p>
+        <pre>&lt;div class="sr fade-down"&gt;&lt;/div&gt;</pre>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2 class="sr fade-up">Fade Up Example</h2>
+        <p class="sr fade-up delay-1">Paragraph fades up with a 0.5s delay set by giving the element the class "delay-1"</p>
+        <pre class="sr fade-up delay-2">&lt;p class="sr fade-up delay-1"&gt;&lt;/p&gt;</pre>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2><span class="sr delay-1">What</span><span class="sr delay-2">.</span><span class="sr delay-3">.</span><span class="sr delay-4">.</span> <span class="sr delay-5">More</span> <span class="sr delay-6">delays</span><span class="sr delay-7">?</span><span class="sr delay-8">!</span></h2>
+        <p class="sr fade-up delay-9">Out of the box you have up to 10 delay classes each with a 0.5s delay. Just use "delay-1", "delay-2" etc. More delay classes can be easily added via the Sass loop.</p>
+        <pre class="sr fade-up delay-10">&lt;span class="sr delay-2"&gt;&lt;/span&gt;</pre>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="sr fade-right">
+            <h2>Fade Right Example</h2>
+            <p>By adding the trigger class "sr" followed by the animation type "fade-right" you can trigger a nice fade right animation on a containing div element.</p>
+            <pre>&lt;div class="sr fade-right"&gt;&lt;/div&gt;</pre>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="sr fade-left">
+            <h2>Fade Left Example</h2>
+            <p>By adding the trigger class "sr" followed by the animation type "fade-left" you can trigger a nice fade left animation on a containing div element.</p>
+            <pre>&lt;div class="sr fade-left"&gt;&lt;/div&gt;</pre>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div>
+            <h2 class="sr delay-1">Default Variables</h2>
+            <p class="sr delay-2">This package contains default variables to make your animations consistent. "$transform-distance" and "$transform-ease" can be tweaked to suit your project requirments. More variable tweaks coming soon...</p>
+            <pre class="sr delay-3">$transform-distance: 64px;</pre>
+            <pre class="sr delay-4">$transform-ease: 0.8s;</pre>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div>
+            <h2 class="sr delay-1">More on GitHub</h2>
+            <p class="sr delay-2">For new releases and further documentation please visit the project's GitHub repo.</p>
+            <p class="sr delay-3"><a href="https://github.com/OhColar/scroleyTrigger" target="_blank" class="btn">View on GitHub</a></p>
+
+        </div>
+    </div>
+</section>
+<script src="src/js/app.js"></script>
+</body>
+</html>

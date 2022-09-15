@@ -1,0 +1,129 @@
+/**
+ * app.scss
+ * Imports all files from modules
+ * @author Alex Cole
+ * @author email: alex@arcdevelop.co.uk
+ */
+/*  ====================
+    Base
+    ==================== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; }
+
+h1, h2 {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-top: 0; }
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.65;
+  font-weight: 300; }
+
+header {
+  height: 40vh; }
+
+section {
+  text-align: center;
+  height: 60vh; }
+  section p:nth-last-of-type(1) {
+    margin-bottom: 0; }
+
+pre {
+  color: #d6fe40;
+  background-color: #1d1d1b;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  font-size: 18px; }
+
+section:nth-of-type(odd) {
+  background-color: #1d1d1b; }
+  section:nth-of-type(odd) h2 {
+    color: white; }
+  section:nth-of-type(odd) p {
+    color: #d8d8d8; }
+
+.container {
+  margin: auto;
+  width: 94%;
+  max-width: 820px;
+  padding: 100px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box; }
+
+span {
+  display: inline-block; }
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-align: center;
+  background-color: #FFF;
+  color: #1d1d1b;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.35s ease 0s; }
+  .btn:hover {
+    background-color: #d6fe40; }
+
+/*  ====================
+    Variables
+    ==================== */
+/*  ====================
+    Main
+    ==================== */
+.js .sr {
+  transition: all 0.8s ease 0s;
+  opacity: 0; }
+  .js .sr.active {
+    opacity: 1; }
+  .js .sr.fade-up {
+    transform: translateY(64px); }
+    .js .sr.fade-up.active {
+      transform: translateY(0); }
+  .js .sr.fade-down {
+    transform: translateY(-64px); }
+    .js .sr.fade-down.active {
+      transform: translateY(0); }
+  .js .sr.fade-right {
+    transform: translateX(-64px); }
+    .js .sr.fade-right.active {
+      transform: translateY(0); }
+  .js .sr.fade-left {
+    transform: translateX(64px); }
+    .js .sr.fade-left.active {
+      transform: translateY(0); }
+  .js .sr.delay-1 {
+    transition-delay: 0.5s; }
+  .js .sr.delay-2 {
+    transition-delay: 1s; }
+  .js .sr.delay-3 {
+    transition-delay: 1.5s; }
+  .js .sr.delay-4 {
+    transition-delay: 2s; }
+  .js .sr.delay-5 {
+    transition-delay: 2.5s; }
+  .js .sr.delay-6 {
+    transition-delay: 3s; }
+  .js .sr.delay-7 {
+    transition-delay: 3.5s; }
+  .js .sr.delay-8 {
+    transition-delay: 4s; }
+  .js .sr.delay-9 {
+    transition-delay: 4.5s; }
+  .js .sr.delay-10 {
+    transition-delay: 5s; }
+
+.no-js .sr {
+  opacity: 1; }
