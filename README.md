@@ -42,7 +42,6 @@ delay-4
 
 I've created a delay loop in the scss file which loops from 1 through 10. If you need to add more delay classes simply change the number 10 to a higher number.
 ```scss
-// Delay Loop
 @for $i from 1 through 10 {
     $delay-ms: $i * 0.5;
     &.delay-#{$i} {
