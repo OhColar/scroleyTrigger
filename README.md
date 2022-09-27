@@ -25,10 +25,6 @@ fade-right
 One of the things I wanted from this package was animation consistency and at the top of the scss file you'll see a few variables (more to come). These will control the easing speed and the emphasis (for fade-up/down/left/right). 
 
 ```scss
-/*  ====================
-    Variables
-    ==================== */
-
 $transform-distance: 64px;
 $transform-ease: 0.8s;
 ```
