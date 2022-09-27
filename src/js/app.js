@@ -25,5 +25,6 @@ function addObserver(el, options) {
 //scrollTrigger('.sr')
 // Example usage 2:
 scrollTrigger('.sr', {
-    rootMargin: '-200px'
+    rootMargin: '-100px'
+    // test % and ems rems
 })
